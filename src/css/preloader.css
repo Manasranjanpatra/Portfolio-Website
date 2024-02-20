@@ -1,0 +1,126 @@
+/* loading animation */
+
+.preloader {
+    height: 100vh;
+    width: 100vw;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes manmi {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.manmi div {
+    left: 94px;
+    top: 48px;
+    position: absolute;
+    animation: manmi linear 0.4444444444444444s infinite;
+    background: #df1317;
+    width: 12px;
+    height: 24px;
+    border-radius: 6px / 12px;
+    transform-origin: 6px 52px;
+}
+
+.manmi div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -0.4074074074074074s;
+    background: #df1317;
+}
+
+.manmi div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -0.37037037037037035s;
+    background: #e4934b;
+}
+
+.manmi div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.3333333333333333s;
+    background: #e2bb8b;
+}
+
+.manmi div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.2962962962962963s;
+    background: #e1e7e7;
+}
+
+.manmi div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.25925925925925924s;
+    background: #91bcc6;
+}
+
+.manmi div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.2222222222222222s;
+    background: #07abcc;
+}
+
+.manmi div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.18518518518518517s;
+    background: #0a69aa;
+}
+
+.manmi div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.14814814814814814s;
+    background: #194645;
+}
+
+.manmi div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.1111111111111111s;
+    background: #df1317;
+}
+
+.manmi div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.07407407407407407s;
+    background: #e4934b;
+}
+
+.manmi div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.037037037037037035s;
+    background: #e2bb8b;
+}
+
+.manmi div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+    background: #e1e7e7;
+}
+
+.loadingio-spinner-spinner-zrraouwg2z {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.manmi {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    /* see note above */
+}
+
+.manmi div {
+    box-sizing: content-box;
+}
