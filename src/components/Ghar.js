@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import photo from "../assists/photo.jpg.jpg";
 import Typed from "typed.js";
-import pdf from "./Resume.pdf";
+
 
 const Ghar = () => {
   useEffect(() => {
@@ -58,7 +58,7 @@ const Ghar = () => {
         </div>
 
         <div className="resume">
-          <a href={pdf} download="Resume.pdf">
+          <a href="https://drive.google.com/file/d/1fJcIturDu_SLnu_YL9qcmFSWn66YjMRu/view?usp=sharing" >
             {" "}
             <button download>Download Cv</button>
           </a>
