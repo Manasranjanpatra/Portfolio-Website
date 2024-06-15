@@ -235,8 +235,8 @@ const Projects = () => {
       date: "2023, 6, 3",
       image: portfolioWebsite,
       links: {
-        source: "https://github.com/gulshan07dev/my-portfolio",
-        live: "https://my-portfolio-gulshan07dev.vercel.app/",
+        source: "https://github.com/Manasranjanpatra/Portfolio-Website.git",
+        live: "https://portfolio-website-two-psi-34.vercel.app/",
       },
     },
     {
