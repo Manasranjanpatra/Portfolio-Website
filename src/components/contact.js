@@ -1,56 +1,61 @@
 import React from "react";
-import contactBg from "../assists/contact-us.png";
 
-const Contact = () => {
+const contact = () => {
   return (
-    <section id="contact" className="section flex">
-      {/* <header className="section-heading">
-        Contact - <span>me</span>
-      </header> */}
-      <div className="flex contact-container">
-        <form>
-          <h2>Get In Touch</h2>
-          <p>Please add your information below to stay in touch.</p>
-          <label for="name">Name </label>
-          <input
-            type="text"
-            id="name"
-            placeholder="enter your name.."
-            required
-          />
-          <label for="number">Phone no </label>
-          <input
-            type="tel"
-            id="number"
-            placeholder="enter your phone no.."
-            required
-          />
-          <label for="email">Email </label>
-          <input
-            type="email"
-            id="email"
-            placeholder="enter your email id.."
-            required
-          />
-          <label for="message">Message</label>
-          <textarea
-            name=""
-            id="message"
-            cols="30"
-            rows="2"
-            placeholder="enter your msg.."
-            required
-          ></textarea>
-          <button className="btn-submit" type="submit" value="submit">
-            send
-          </button>
-        </form>
-        <div className="contact-bg">
-          <img src={contactBg} alt="contact-bg" />
+    <div>
+      <div className="contactme">
+        <h2 className="touch">GET IN TOUCH</h2>
+        <div className="grid22">
+          <div className="designs">
+            <h1 id="upper">Have any doubt or Querry ?</h1>
+            <p id="decorate">
+              you can contact with me by fill the form or you can directly
+              contact with me or send message by Email
+            </p>
+            <div className="socials">
+              <div className="fontaw">
+             <a href="tel:+1234567890">   <i className="fa-solid fa-phone"></i></a>
+                <p id="itext">+91 6372442353</p>
+              </div>
+
+              <div className="fontaw">
+               <a href="mailto:manasrpatra18@gmail.com"> <i className="fa-solid fa-envelope"></i></a>
+                <p id="itext">manasrpatar18@gmail.com</p>
+              </div>
+
+              <div className="fontaw">
+                <i className="fa-brands fa-github"></i>
+                <p id="itext">ManasRanjanPatra</p>
+              </div>
+
+              <div className="fontaw">
+                <i className="fa-solid fa-location-dot"></i>
+                <p id="itext">Balasore,Bahanaga,Shibapura</p>
+              </div>
+            </div>
+          </div>
+          <div className="inputs">
+            <form action="" className="form">
+              <h2 id="niche">please fill out the form to get in touch</h2>
+              <input type="text" placeholder="Name" id="coinput" required />
+              <input type="email" placeholder="Email" id="coinput" required />
+              <input type="number" placeholder="Phone" id="coinput" required />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+              <button id="fbut">Submit</button>
+
+            </form>
+          </div>
         </div>
+        <p className="footer">Made By #❤️# Manas</p>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default Contact;
+export default contact;

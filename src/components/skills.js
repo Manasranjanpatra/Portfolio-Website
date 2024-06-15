@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import skill1 from "../assists/skills-img/c.png";
-import skill2 from "../assists/skills-img/cpp.png";
 import skill3 from "../assists/skills-img/python.svg";
 import skill5 from "../assists/skills-img/html5.svg";
 import skill6 from "../assists/skills-img/css.svg";
@@ -11,7 +10,6 @@ import skill8 from "../assists/skills-img/node.svg";
 import skill9 from "../assists/skills-img/react.svg";
 import skill10 from "../assists/skills-img/git.svg";
 import skill11 from "../assists/skills-img/github.svg";
-import skill12 from "../assists/skills-img/mysql logo.png";
 import skill13 from "../assists/skills-img/mongodb logo.png";
 
 const Skills = () => {
@@ -21,7 +19,7 @@ const Skills = () => {
 
     let progressEnd = [
       { C: 90 },
-      { Cpp: 85 },
+
       { Py: 45 },
       { Dsa: 65 },
       { Html: 75 },
@@ -31,7 +29,7 @@ const Skills = () => {
       { ReactJs: 50 },
       { Git: 80 },
       { Github: 85 },
-      { Mysql: 95 },
+
       { Mongodb: 90 },
     ];
 
@@ -44,7 +42,7 @@ const Skills = () => {
 
         function animateProgress() {
           progressValue += 1;
-          el.style.background = `conic-gradient(#00e600 ${
+          el.style.background = `conic-gradient(#00ce86 ${
             progressValue * 3.6
           }deg, #cadcff ${progressValue * 3.6}deg)`;
           skillPercent[i].textContent = `${progressValue}%`;
@@ -78,13 +76,13 @@ const Skills = () => {
 
   return (
     <section id="skills" className="flex section">
-      <header className="section-heading">
-        <span>my</span> - coding Skills
+      <header className="section-heading2">
+        <h2>My skills</h2>
       </header>
       <div className="skills-container container flex">
         {/* Render each skill component */}
         <Skill name="C" img={skill1} />
-        <Skill name="C++" img={skill2} />
+
         <Skill name="Python" img={skill3} />
         <Skill name="DSA" desc="Data Structure And Algorithm" />
         <Skill name="HTML" img={skill5} />
@@ -94,7 +92,7 @@ const Skills = () => {
         <Skill name="React.js" img={skill9} />
         <Skill name="Git" img={skill10} />
         <Skill name="GitHub" img={skill11} />
-        <Skill name="MySQL" img={skill12} />
+
         <Skill name="MongoDB" img={skill13} />
       </div>
     </section>

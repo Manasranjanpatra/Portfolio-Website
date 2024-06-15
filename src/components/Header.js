@@ -24,7 +24,7 @@ const Header = () => {
 
   useEffect(() => {
     localStorage.setItem("darkMode", darkMode.toString());
-    if (darkMode) {
+    if (!darkMode) {
       document.body.classList.add("dark-theme");
     } else {
       document.body.classList.remove("dark-theme");
@@ -69,7 +69,9 @@ const Header = () => {
   return (
     <nav className="flex">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        {/* <img src={logo} alt="logo" /> */}
+          <h1 id="mlogo">MANAS</h1>
+
       </div>
       <div className="menu flex">
         <NavLink to="/" exact="true" className="flex">
@@ -94,7 +96,7 @@ const Header = () => {
         <div className="line"></div>
 
         <NavLink to="/services" className="flex">
-          <i class="fa-solid fa-desktop"></i>
+          <i className="fa-solid fa-desktop"></i>
           <p>Services</p>
         </NavLink>
 

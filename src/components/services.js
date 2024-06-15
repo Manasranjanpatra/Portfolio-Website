@@ -5,8 +5,12 @@ const Services = () => {
     const noService = <p className="not-present">Currently, services are not available!</p>;
     return (
       <div className="service-container">
+
         {noService}
+
+        
       </div>
+
     );
   };
 

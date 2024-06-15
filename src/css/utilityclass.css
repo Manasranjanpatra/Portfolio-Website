@@ -87,6 +87,14 @@ section.scroll-switch-on {
     position: relative;
     z-index: 5;
 }
+
+.section-heading2 {
+    text-align: center;
+    color:#f90330;
+    text-transform: uppercase;
+    padding: 0.3rem 0;
+    font-size: 1.2rem;
+  }
  
 .section-heading span {
     font-size: 40px;
