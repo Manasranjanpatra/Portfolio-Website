@@ -63,8 +63,8 @@ const Projects = () => {
       image: DeliveryWebsite,
       links: {
         source:
-          "https://github.com/gulshan07dev/My-Project-html-css-and-Javascript-/tree/main/Profile%20Card",
-        live: "https://profile-card.gulshan07dev.repl.co",
+          "https://github.com/Manasranjanpatra/Landing-page.git",
+        live: "https://deliverywebsitemain.netlify.app",
       },
     },
     {
@@ -209,7 +209,7 @@ const Projects = () => {
       links: {
         source:
           "https://github.com/Manasranjanpatra/Tictac-toe.git",
-        live: "https://tic-tac-toe-game.gulshan07dev.repl.co",
+        live: "https://tictac-toe-henna.vercel.app",
       },
     },
  
@@ -221,8 +221,8 @@ const Projects = () => {
       date: "2023, 4, 29",
       image: Dragdrop,
       links: {
-        source: "https://github.com/gulshan07dev/github-profile-searcher",
-        live: "https://github-profile-search.gulshan07dev.repl.co",
+        source: "https://github.com/Manasranjanpatra/Drag-Drop.git",
+        live: "https://drag-drop-alpha-three.vercel.app",
       },
     },
    
