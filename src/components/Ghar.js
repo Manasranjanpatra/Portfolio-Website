@@ -58,7 +58,8 @@ const Ghar = () => {
         </div>
 
         <div className="resume">
-          <a href="https://drive.google.com/file/d/1fJcIturDu_SLnu_YL9qcmFSWn66YjMRu/view?usp=sharing" >
+
+          <a href="https://drive.google.com/file/d/13AHxWGgECD-emlusquPk09iTgOyRjBrj/view?usp=sharing" >
             {" "}
             <button download>Download Cv</button>
           </a>
